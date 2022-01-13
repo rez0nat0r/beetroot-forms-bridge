@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-color: #e5eeee;
+}
+
+form {
+    width: 400px;
+    height: 495px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(../img/form-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 30px 50px -10px #152b42;
+    padding-top: 50px;
+}
+
+.content__list {
+    width: 262px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.links {
+    text-decoration: none;
+    color: #fbf6e4;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.active__link {
+    border-bottom: 2px solid #e66a64;
+}
+
+.inactive__link {
+    color: #e1c2f1;
+}
+
+.input__username, .input__password {
+    color: #fbf6e4;
+    margin-bottom: 10px;
+}
+
+.input__data {
+    width: 260px;
+    height: 40px;
+    border: 2px solid #a389c9;
+    background-color: transparent;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
